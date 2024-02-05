@@ -1,0 +1,18 @@
+.wp-block-create-block-about-section {
+	.wp-block-about-section-img {
+		position: relative;
+
+		&.is-loading img {
+			opacity: 0.3;
+		}
+
+		.components-spinner {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+		}
+	}
+}
